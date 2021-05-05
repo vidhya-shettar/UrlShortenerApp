@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8"/>
+<title>Welcome to URL shortner</title>
+</head>
+<body>
+
+<div>To shorten your URL Go here : <a th:href="@{__${#httpServletRequest.requestURI}__url}">Click to More</a></div>
+
+</body>
+</html>
